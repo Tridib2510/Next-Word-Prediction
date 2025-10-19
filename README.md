@@ -16,23 +16,6 @@ This project leverages an LSTM model to predict the next word in a sequence, pro
 - **Tokenizer Integration**: Employs a tokenizer to process and convert text data into a format suitable for the LSTM model.
 - **User-Friendly Interface**: Provides an intuitive interface for users to input text and receive predictions.
 - **Pre-trained Model**: Includes a pre-trained model (`next_word_model.h5`) for immediate use.
-
----
-
-## 📁 Project Structure
-
-Next-Word-Prediction/
-├── app.py # Main application script
-├── experiment.ipynb # Jupyter notebook for experimentation
-├── hamlet.txt # Sample text data for training
-├── next_word_model.h5 # Pre-trained LSTM model
-├── requirements.txt # Python dependencies
-├── runtime.txt # Runtime environment specifications
-└── tokenizer.pickle # Tokenizer object for text processing
-
-yaml
-Copy code
-
 ---
 
 ## 🚀 Installation & Setup
@@ -92,3 +75,4 @@ Install with:
 bash
 Copy code
 pip install -r requirements.txt
+
