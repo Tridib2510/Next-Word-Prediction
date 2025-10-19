@@ -21,7 +21,7 @@ This project leverages an LSTM model to predict the next word in a sequence, pro
 
 ## 📁 Project Structure
 
-Next-Word-Prediction/
+Next-Word-Prediction
 │
 ├── app.py                  # Main application script
 ├── experiment.ipynb        # Jupyter notebook for experimentation
@@ -99,6 +99,7 @@ These are listed in the requirements.txt file and can be installed using:
 bash
 Copy code
 pip install -r requirements.txt
+
 
 
 
