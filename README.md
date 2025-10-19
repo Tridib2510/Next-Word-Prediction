@@ -21,17 +21,14 @@ This project leverages an LSTM model to predict the next word in a sequence, pro
 
 ## 📁 Project Structure
 
-Next-Word-Prediction
-│
-├── app.py                  # Main application script
-├── experiment.ipynb        # Jupyter notebook for experimentation
-├── hamlet.txt              # Sample text data for training
-├── next_word_model.h5      # Pre-trained LSTM model
-├── requirements.txt        # Python dependencies
-├── runtime.txt             # Runtime environment specifications
-└── tokenizer.pickle        # Tokenizer object for text processing
-
-
+Next-Word-Prediction/
+├── app.py # Main application script
+├── experiment.ipynb # Jupyter notebook for experimentation
+├── hamlet.txt # Sample text data for training
+├── next_word_model.h5 # Pre-trained LSTM model
+├── requirements.txt # Python dependencies
+├── runtime.txt # Runtime environment specifications
+└── tokenizer.pickle # Tokenizer object for text processing
 
 yaml
 Copy code
@@ -46,40 +43,36 @@ Copy code
 git clone https://github.com/Tridib2510/Next-Word-Prediction.git
 cd Next-Word-Prediction
 2. Install Dependencies
-Ensure you have Python 3.6+ installed. Then, install the required packages:
+Ensure you have Python 3.6+ installed. Then, run:
 
 bash
 Copy code
 pip install -r requirements.txt
 3. Run the Application
-Start the application by running:
-
 bash
 Copy code
 python app.py
 This will launch the application, allowing you to input text and receive next-word predictions.
 
 📘 Usage
-Input a Text Sequence: Type a sequence of words into the provided input field.
+Input a Text Sequence: Type a sequence of words into the input field.
 
-Receive Prediction: The model will process the input and predict the next most likely word.
+Receive Prediction: The model predicts the next most likely word.
 
-Iterate: Continue typing to receive subsequent word predictions.
+Iterate: Continue typing to get subsequent predictions.
 
 🧪 Training the Model
 To train the model from scratch:
 
-Prepare the Data: Use the hamlet.txt file or any other text corpus.
+Prepare the Data: Use hamlet.txt or any other text corpus.
 
-Preprocess the Text: Tokenize the text and prepare sequences suitable for LSTM training.
+Preprocess the Text: Tokenize and prepare sequences suitable for LSTM.
 
-Train the Model: Use the experiment.ipynb notebook to train the LSTM model.
+Train the Model: Use experiment.ipynb to train the LSTM model.
 
-Save the Model: After training, save the model as next_word_model.h5 for future use.
+Save the Model: Save as next_word_model.h5 for future use.
 
 📦 Dependencies
-The project requires the following Python packages:
-
 tensorflow
 
 numpy
@@ -94,12 +87,8 @@ flask
 
 pickle
 
-These are listed in the requirements.txt file and can be installed using:
+Install with:
 
 bash
 Copy code
 pip install -r requirements.txt
-
-
-
-
