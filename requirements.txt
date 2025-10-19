@@ -1,0 +1,6 @@
+numpy
+pandas 
+tensorflow==2.20
+scikit-learn
+streamlit
+nltk
