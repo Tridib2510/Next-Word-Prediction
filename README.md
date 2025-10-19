@@ -97,25 +97,3 @@ These are listed in the requirements.txt file and can be installed using:
 bash
 Copy code
 pip install -r requirements.txt
-🧑‍💻 Contributing
-Contributions are welcome! If you'd like to enhance the project, please fork the repository, make your changes, and submit a pull request. Ensure your changes are well-documented and tested.
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-pgsql
-Copy code
-
-If you want, I can also **add badges and a live demo section** to make it look more professional for GitHub. Do you want me to do that?
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can
