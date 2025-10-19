@@ -32,6 +32,7 @@ Next-Word-Prediction/
 └── tokenizer.pickle        # Tokenizer object for text processing
 
 
+
 yaml
 Copy code
 
@@ -98,5 +99,6 @@ These are listed in the requirements.txt file and can be installed using:
 bash
 Copy code
 pip install -r requirements.txt
+
 
 
