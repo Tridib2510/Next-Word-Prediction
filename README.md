@@ -23,13 +23,14 @@ This project leverages an LSTM model to predict the next word in a sequence, pro
 
 Next-Word-Prediction/
 │
-├── app.py # Main application script
-├── experiment.ipynb # Jupyter notebook for experimentation
-├── hamlet.txt # Sample text data for training
-├── next_word_model.h5 # Pre-trained LSTM model
-├── requirements.txt # Python dependencies
-├── runtime.txt # Runtime environment specifications
-└── tokenizer.pickle # Tokenizer object for text processing
+├── app.py                  # Main application script
+├── experiment.ipynb        # Jupyter notebook for experimentation
+├── hamlet.txt              # Sample text data for training
+├── next_word_model.h5      # Pre-trained LSTM model
+├── requirements.txt        # Python dependencies
+├── runtime.txt             # Runtime environment specifications
+└── tokenizer.pickle        # Tokenizer object for text processing
+
 
 yaml
 Copy code
@@ -97,3 +98,4 @@ These are listed in the requirements.txt file and can be installed using:
 bash
 Copy code
 pip install -r requirements.txt
+
